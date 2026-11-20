@@ -215,6 +215,150 @@
   -0.4,
   0.15695596113801
  ],
+ "tail_gaussian_W_p95": [
+  -18.5,
+  2.808868885040283e-06
+ ],
+ "tail_gaussian_W_p99": [
+  -7.0,
+  0.0631585158407688
+ ],
+ "tail_gaussian_W_max": [
+  4.0,
+  0.0710621513426303
+ ],
+ "tail_gaussian_W_var": [
+  -25.0,
+  2.808868885040283e-06
+ ],
+ "tail_gaussian_preemptions": [
+  -39.8,
+  0.0023205868128491
+ ],
+ "tail_gaussian_switches": [
+  -12.6,
+  0.0023205868128491
+ ],
+ "tail_exponential_W_p95": [
+  -1.2,
+  1.0
+ ],
+ "tail_exponential_W_p99": [
+  2.0,
+  1.0
+ ],
+ "tail_exponential_W_max": [
+  2.9,
+  1.0
+ ],
+ "tail_exponential_W_var": [
+  1.0,
+  1.0
+ ],
+ "tail_exponential_preemptions": [
+  -10.3,
+  0.0023205868128491
+ ],
+ "tail_exponential_switches": [
+  -4.3,
+  0.0023205868128491
+ ],
+ "tail_lognormal_W_p95": [
+  -1.4,
+  1.0
+ ],
+ "tail_lognormal_W_p99": [
+  0.6,
+  1.0
+ ],
+ "tail_lognormal_W_max": [
+  1.1,
+  0.0791065394878387
+ ],
+ "tail_lognormal_W_var": [
+  1.1,
+  0.0098181776702404
+ ],
+ "tail_lognormal_preemptions": [
+  -4.7,
+  0.0023205868128491
+ ],
+ "tail_lognormal_switches": [
+  -2.4,
+  0.0023205868128491
+ ],
+ "tail_pareto_W_p95": [
+  -2.6,
+  1.0
+ ],
+ "tail_pareto_W_p99": [
+  0.5,
+  1.0
+ ],
+ "tail_pareto_W_max": [
+  0.5,
+  0.0100867822766304
+ ],
+ "tail_pareto_W_var": [
+  0.5,
+  1.0
+ ],
+ "tail_pareto_preemptions": [
+  -9.0,
+  0.0023205868128491
+ ],
+ "tail_pareto_switches": [
+  -3.5,
+  0.0023205868128491
+ ],
+ "tail_bimodal_W_p95": [
+  0.5,
+  1.0
+ ],
+ "tail_bimodal_W_p99": [
+  -0.0,
+  1.0
+ ],
+ "tail_bimodal_W_max": [
+  1.1,
+  1.0
+ ],
+ "tail_bimodal_W_var": [
+  1.5,
+  1.6801059246063232e-05
+ ],
+ "tail_bimodal_preemptions": [
+  -1.8,
+  0.0023205868128491
+ ],
+ "tail_bimodal_switches": [
+  -1.0,
+  0.0023205868128491
+ ],
+ "tail_SDSC-SP2-1998-4.2-cln_W_p95": [
+  0.1,
+  1.0
+ ],
+ "tail_SDSC-SP2-1998-4.2-cln_W_p99": [
+  1.1,
+  1.0
+ ],
+ "tail_SDSC-SP2-1998-4.2-cln_W_max": [
+  1.5,
+  0.2827304154634475
+ ],
+ "tail_SDSC-SP2-1998-4.2-cln_W_var": [
+  1.7,
+  0.345576211810112
+ ],
+ "tail_SDSC-SP2-1998-4.2-cln_preemptions": [
+  -2.6,
+  0.0023205868128491
+ ],
+ "tail_SDSC-SP2-1998-4.2-cln_switches": [
+  -1.6,
+  0.0023205868128491
+ ],
  "vs_RR-matched_gaussian_AWT": [
   -5.8,
   -6.4,

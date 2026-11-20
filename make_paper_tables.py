@@ -66,6 +66,21 @@ def main(results, out):
     L += ["\\bottomrule", "\\end{tabular}"]
     (out / "tab_vs_rr.tex").write_text("\n".join(L), encoding="utf-8")
 
+    # ---- Table: tail waiting and context-switch counts, EED-RR vs RR
+    mets = [("W_p95", "p95 wait"), ("W_p99", "p99 wait"), ("W_max", "Max wait"), ("W_var", "Wait variance"),
+            ("preemptions", "Preemptions"), ("switches", "Process switches")]
+    L = ["\\begin{tabular}{l" + "r" * len(mets) + "}", "\\toprule",
+         "Workload & " + " & ".join(m for _, m in mets) + " \\\\", "\\midrule"]
+    for fam, d, load, n, lab in rows:
+        cs = [short(pick(pt, family=fam, dist=d, load=load, n=n, control="RR", metric=m)) for m, _ in mets]
+        L.append(f"{lab} & " + " & ".join(cs) + " \\\\")
+        for m, _ in mets:
+            r = pick(pt, family=fam, dist=d, load=load, n=n, control="RR", metric=m)
+            if r is not None:
+                nums[f"tail_{d}_{m}"] = [round(r.rel_pct, 1), float(r.p_holm)]
+    L += ["\\bottomrule", "\\end{tabular}"]
+    (out / "tab_tail.tex").write_text("\n".join(L), encoding="utf-8")
+
     # ---- Table: targeting vs equal budget, ablations and definitional variants (AWT / SD_mean)
     ctr = [("RR-matched", "Equal-budget RR"), ("RandomBoost", "Random boost"),
            ("EED[JFI-only]", "JFI only"), ("EED[deficit-only]", "Deficit only"),

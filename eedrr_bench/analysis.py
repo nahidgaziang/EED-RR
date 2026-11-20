@@ -16,8 +16,8 @@ import pandas as pd
 from .stats import holm, paired_summary
 
 KEY = ["family", "dist", "load", "n", "switch_cost_frac"]
-METRICS = ["AWT", "resp_mean", "W_short", "W_long", "SD_mean", "SD_max", "W_p99", "W_max",
-           "JFI_final", "JFI_t_mean", "preemptions", "switches"]
+METRICS = ["AWT", "resp_mean", "W_short", "W_long", "SD_mean", "SD_max", "W_p95", "W_p99", "W_max",
+           "W_var", "JFI_final", "JFI_t_mean", "preemptions", "switches"]
 CONTROLS = ["RR", "RR(mean)", "RR(x1.25)", "RR(x1.5)", "RR(x2)", "RR-matched", "RandomBoost",
             "EED[JFI-only]", "EED[deficit-only]", "EED[all,dispatch]", "EED[all,continuous]",
             "EED[active,dispatch]", "EED-RR-original(sf=1.5)", "MARR", "EImHLVQTRR", "ADRR*",
@@ -26,8 +26,9 @@ CONTROLS_15 = ["RR", "RR-matched(sf=1.5)", "RandomBoost(sf=1.5)", "EED-RR-origin
                "MARR", "EImHLVQTRR", "FCFS", "SRTF"]
 LABEL = {"AWT": "Mean waiting time", "resp_mean": "Mean response time",
          "W_short": "Waiting, short third", "W_long": "Waiting, long third",
-         "SD_mean": "Mean slowdown", "SD_max": "Max slowdown", "W_p99": "p99 waiting",
-         "W_max": "Max waiting", "JFI_final": "Jain index (final)",
+         "SD_mean": "Mean slowdown", "SD_max": "Max slowdown", "W_p95": "p95 waiting",
+         "W_p99": "p99 waiting", "W_max": "Max waiting", "W_var": "Waiting variance",
+         "JFI_final": "Jain index (final)",
          "JFI_t_mean": "Jain index (time-avg)", "preemptions": "Preemptions",
          "switches": "Process switches"}
 
