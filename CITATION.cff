@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite the paper and this repository."
+title: "EED-RR: code, data and results"
+type: software
+version: "2.0.0"
+date-released: "2026-11-20"
+license: MIT
+repository-code: "https://github.com/nahidgaziang/EED-RR"
+authors:
+  - family-names: Das
+    given-names: Shimul
+  - family-names: Pranta
+    given-names: Md. Minhazul Islam
+  - family-names: Gazi
+    given-names: Nahid
+  - family-names: Roy
+    given-names: Angkon
+  - family-names: Islam
+    given-names: Md. Shymon
+    email: shymon-cse@sust.edu
+    affiliation: "Department of Computer Science and Engineering, Shahjalal University of Science and Technology"
+preferred-citation:
+  type: article
+  title: "EED-RR: Round Robin scheduling with an elastic time quantum regulated by Jain's fairness index and per-process deficit"
+  authors:
+    - family-names: Das
+      given-names: Shimul
+    - family-names: Pranta
+      given-names: Md. Minhazul Islam
+    - family-names: Gazi
+      given-names: Nahid
+    - family-names: Roy
+      given-names: Angkon
+    - family-names: Islam
+      given-names: Md. Shymon
+  journal: "PLOS ONE"
+  status: submitted
+  year: 2026

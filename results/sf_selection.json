@@ -1,0 +1,69 @@
+{
+  "rule": "argmin geometric-mean(SD_mean_EED / SD_mean_RR) over validation workloads",
+  "chosen_sf": 0.25,
+  "table": [
+    {
+      "sf": 0.25,
+      "gm_ratio_SD_mean": 0.9949040338683464,
+      "gm_ratio_AWT": 0.9765943352712871,
+      "gm_ratio_W_short": 1.0310984690574292,
+      "gm_ratio_resp_mean": 1.0317681271508714,
+      "gm_ratio_W_p99": 0.9897255996451002,
+      "gm_ratio_JFI_final": 1.0087982999377878
+    },
+    {
+      "sf": 0.5,
+      "gm_ratio_SD_mean": 0.9994496696385934,
+      "gm_ratio_AWT": 0.9627274934702409,
+      "gm_ratio_W_short": 1.0568953712530034,
+      "gm_ratio_resp_mean": 1.057018285354484,
+      "gm_ratio_W_p99": 0.9688367993151197,
+      "gm_ratio_JFI_final": 1.0131062969319622
+    },
+    {
+      "sf": 1.0,
+      "gm_ratio_SD_mean": 1.0231841457611621,
+      "gm_ratio_AWT": 0.9573359166078222,
+      "gm_ratio_W_short": 1.101333841498785,
+      "gm_ratio_resp_mean": 1.10179205210327,
+      "gm_ratio_W_p99": 0.9568433423224953,
+      "gm_ratio_JFI_final": 1.0149337784909185
+    },
+    {
+      "sf": 1.5,
+      "gm_ratio_SD_mean": 1.0511233773516175,
+      "gm_ratio_AWT": 0.9609587536450438,
+      "gm_ratio_W_short": 1.143411472192417,
+      "gm_ratio_resp_mean": 1.1446557391354677,
+      "gm_ratio_W_p99": 0.9586341501824264,
+      "gm_ratio_JFI_final": 1.013517541787151
+    },
+    {
+      "sf": 2.0,
+      "gm_ratio_SD_mean": 1.0802132237731092,
+      "gm_ratio_AWT": 0.9659765235723003,
+      "gm_ratio_W_short": 1.1867641533978912,
+      "gm_ratio_resp_mean": 1.186823689961784,
+      "gm_ratio_W_p99": 0.9555663813667453,
+      "gm_ratio_JFI_final": 1.0115604469494917
+    },
+    {
+      "sf": 3.0,
+      "gm_ratio_SD_mean": 1.1368810528296625,
+      "gm_ratio_AWT": 0.9814610202297149,
+      "gm_ratio_W_short": 1.2644092086203205,
+      "gm_ratio_resp_mean": 1.26513163604518,
+      "gm_ratio_W_p99": 0.9345322546565644,
+      "gm_ratio_JFI_final": 1.0057377902110425
+    },
+    {
+      "sf": 5.0,
+      "gm_ratio_SD_mean": 1.2534690356805511,
+      "gm_ratio_AWT": 1.0256727569730983,
+      "gm_ratio_W_short": 1.4225753485404082,
+      "gm_ratio_resp_mean": 1.4234719438404964,
+      "gm_ratio_W_p99": 0.9105024344471814,
+      "gm_ratio_JFI_final": 0.9918178609830369
+    }
+  ]
+}

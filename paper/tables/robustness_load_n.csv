@@ -1,0 +1,11 @@
+dist,control,min,max,n_cells,n_sig,n_better
+gaussian,RR,-13.6,-5.1,12,12,12
+gaussian,RR-matched,-5.9,-3.4,12,11,11
+exponential,RR,-0.2,0.8,12,0,0
+exponential,RR-matched,-0.3,0.7,12,0,0
+lognormal,RR,-1.5,0.1,12,8,8
+lognormal,RR-matched,-2.3,-0.4,12,9,9
+pareto,RR,-2.8,-1.3,12,8,8
+pareto,RR-matched,-4.3,-0.9,12,8,8
+bimodal,RR,1.2,1.8,12,12,0
+bimodal,RR-matched,0.1,0.9,12,8,0

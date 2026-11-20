@@ -1,0 +1,2111 @@
+{
+ "vsRR_gaussian_AWT": [
+  -12.5,
+  -13.0,
+  -12.1,
+  2.808868885040283e-06
+ ],
+ "vsRR_gaussian_resp_mean": [
+  6.4,
+  6.2,
+  6.6,
+  2.808868885040283e-06
+ ],
+ "vsRR_gaussian_W_short": [
+  6.5,
+  6.3,
+  6.6,
+  2.808868885040283e-06
+ ],
+ "vsRR_gaussian_SD_mean": [
+  -9.4,
+  -9.9,
+  -9.0,
+  2.808868885040283e-06
+ ],
+ "vsRR_gaussian_SD_max": [
+  6.2,
+  4.9,
+  7.1,
+  0.0013218075037002
+ ],
+ "vsRR_gaussian_JFI_t_mean": [
+  -13.1,
+  -14.7,
+  -11.5,
+  2.808868885040283e-06
+ ],
+ "vsRR_exponential_AWT": [
+  -0.0,
+  -0.4,
+  0.3,
+  1.0
+ ],
+ "vsRR_exponential_resp_mean": [
+  5.5,
+  5.3,
+  5.6,
+  2.808868885040283e-06
+ ],
+ "vsRR_exponential_W_short": [
+  5.5,
+  5.3,
+  5.7,
+  2.808868885040283e-06
+ ],
+ "vsRR_exponential_SD_mean": [
+  3.8,
+  3.5,
+  4.0,
+  2.808868885040283e-06
+ ],
+ "vsRR_exponential_SD_max": [
+  5.9,
+  4.6,
+  7.2,
+  0.0001725181937217
+ ],
+ "vsRR_exponential_JFI_t_mean": [
+  -3.3,
+  -4.1,
+  -2.4,
+  1.833215355873108e-05
+ ],
+ "vsRR_lognormal_AWT": [
+  -0.7,
+  -0.9,
+  -0.6,
+  2.1340325474739075e-05
+ ],
+ "vsRR_lognormal_resp_mean": [
+  2.1,
+  1.9,
+  2.3,
+  2.808868885040283e-06
+ ],
+ "vsRR_lognormal_W_short": [
+  2.1,
+  1.9,
+  2.3,
+  2.808868885040283e-06
+ ],
+ "vsRR_lognormal_SD_mean": [
+  1.4,
+  1.2,
+  1.6,
+  2.808868885040283e-06
+ ],
+ "vsRR_lognormal_SD_max": [
+  2.6,
+  1.5,
+  3.7,
+  0.0337355695664882
+ ],
+ "vsRR_lognormal_JFI_t_mean": [
+  0.0,
+  -0.5,
+  0.6,
+  1.0
+ ],
+ "vsRR_pareto_AWT": [
+  -2.1,
+  -2.4,
+  -1.7,
+  2.808868885040283e-06
+ ],
+ "vsRR_pareto_resp_mean": [
+  2.7,
+  2.4,
+  3.1,
+  2.808868885040283e-06
+ ],
+ "vsRR_pareto_W_short": [
+  2.6,
+  2.2,
+  3.0,
+  2.808868885040283e-06
+ ],
+ "vsRR_pareto_SD_mean": [
+  -1.2,
+  -1.5,
+  -0.9,
+  0.0001196190714836
+ ],
+ "vsRR_pareto_SD_max": [
+  3.8,
+  2.9,
+  4.9,
+  0.0001114793121814
+ ],
+ "vsRR_pareto_JFI_t_mean": [
+  -1.7,
+  -2.4,
+  -1.0,
+  0.0087398402392864
+ ],
+ "vsRR_bimodal_AWT": [
+  1.4,
+  1.3,
+  1.5,
+  2.808868885040283e-06
+ ],
+ "vsRR_bimodal_resp_mean": [
+  2.5,
+  2.4,
+  2.6,
+  2.808868885040283e-06
+ ],
+ "vsRR_bimodal_W_short": [
+  2.4,
+  2.3,
+  2.6,
+  2.808868885040283e-06
+ ],
+ "vsRR_bimodal_SD_mean": [
+  2.1,
+  2.0,
+  2.2,
+  2.808868885040283e-06
+ ],
+ "vsRR_bimodal_SD_max": [
+  2.9,
+  1.6,
+  4.2,
+  0.3528771176934242
+ ],
+ "vsRR_bimodal_JFI_t_mean": [
+  -0.2,
+  -0.7,
+  0.3,
+  1.0
+ ],
+ "vsRR_SDSC-SP2-1998-4.2-cln_AWT": [
+  -0.0,
+  -1.0,
+  0.8,
+  1.0
+ ],
+ "vsRR_SDSC-SP2-1998-4.2-cln_resp_mean": [
+  3.7,
+  2.8,
+  4.5,
+  2.808868885040283e-06
+ ],
+ "vsRR_SDSC-SP2-1998-4.2-cln_W_short": [
+  2.8,
+  2.2,
+  3.4,
+  1.8952414393424988e-05
+ ],
+ "vsRR_SDSC-SP2-1998-4.2-cln_SD_mean": [
+  3.1,
+  2.5,
+  3.7,
+  1.1943280696868896e-05
+ ],
+ "vsRR_SDSC-SP2-1998-4.2-cln_SD_max": [
+  5.4,
+  1.7,
+  8.3,
+  0.0647627860307693
+ ],
+ "vsRR_SDSC-SP2-1998-4.2-cln_JFI_t_mean": [
+  -0.9,
+  -1.6,
+  -0.4,
+  0.15695596113801
+ ],
+ "vs_RR-matched_gaussian_AWT": [
+  -5.8,
+  -6.4,
+  -5.3,
+  2.808868885040283e-06
+ ],
+ "vs_RR-matched_gaussian_SD": [
+  -4.0,
+  2.808868885040283e-06
+ ],
+ "vs_RandomBoost_gaussian_AWT": [
+  -5.9,
+  -6.3,
+  -5.6,
+  2.808868885040283e-06
+ ],
+ "vs_RandomBoost_gaussian_SD": [
+  -4.2,
+  2.808868885040283e-06
+ ],
+ "vs_EED[JFI-only]_gaussian_AWT": [
+  0.0,
+  0.0,
+  0.0,
+  1.0
+ ],
+ "vs_EED[JFI-only]_gaussian_SD": [
+  0.0,
+  1.0
+ ],
+ "vs_EED[deficit-only]_gaussian_AWT": [
+  2.9,
+  2.7,
+  3.1,
+  2.808868885040283e-06
+ ],
+ "vs_EED[deficit-only]_gaussian_SD": [
+  1.8,
+  2.808868885040283e-06
+ ],
+ "vs_EED[all,dispatch]_gaussian_AWT": [
+  -8.8,
+  -9.2,
+  -8.5,
+  2.808868885040283e-06
+ ],
+ "vs_EED[all,dispatch]_gaussian_SD": [
+  -6.4,
+  2.808868885040283e-06
+ ],
+ "vs_RR-matched_exponential_AWT": [
+  -0.1,
+  -0.4,
+  0.1,
+  1.0
+ ],
+ "vs_RR-matched_exponential_SD": [
+  0.2,
+  1.0
+ ],
+ "vs_RandomBoost_exponential_AWT": [
+  -0.0,
+  -0.2,
+  0.2,
+  1.0
+ ],
+ "vs_RandomBoost_exponential_SD": [
+  0.3,
+  0.6183092258870602
+ ],
+ "vs_EED[JFI-only]_exponential_AWT": [
+  -0.1,
+  -0.3,
+  0.1,
+  1.0
+ ],
+ "vs_EED[JFI-only]_exponential_SD": [
+  -2.8,
+  2.808868885040283e-06
+ ],
+ "vs_EED[deficit-only]_exponential_AWT": [
+  0.0,
+  -0.2,
+  0.2,
+  1.0
+ ],
+ "vs_EED[deficit-only]_exponential_SD": [
+  -2.0,
+  2.808868885040283e-06
+ ],
+ "vs_EED[all,dispatch]_exponential_AWT": [
+  -0.2,
+  -0.4,
+  0.1,
+  1.0
+ ],
+ "vs_EED[all,dispatch]_exponential_SD": [
+  0.7,
+  0.0022967308759689
+ ],
+ "vs_RR-matched_lognormal_AWT": [
+  -1.9,
+  -2.1,
+  -1.7,
+  2.808868885040283e-06
+ ],
+ "vs_RR-matched_lognormal_SD": [
+  -2.6,
+  2.808868885040283e-06
+ ],
+ "vs_RandomBoost_lognormal_AWT": [
+  -1.9,
+  -2.2,
+  -1.7,
+  2.808868885040283e-06
+ ],
+ "vs_RandomBoost_lognormal_SD": [
+  -2.7,
+  2.808868885040283e-06
+ ],
+ "vs_EED[JFI-only]_lognormal_AWT": [
+  -3.2,
+  -3.4,
+  -3.0,
+  2.808868885040283e-06
+ ],
+ "vs_EED[JFI-only]_lognormal_SD": [
+  -7.5,
+  2.808868885040283e-06
+ ],
+ "vs_EED[deficit-only]_lognormal_AWT": [
+  1.0,
+  0.8,
+  1.2,
+  2.770684659481049e-05
+ ],
+ "vs_EED[deficit-only]_lognormal_SD": [
+  -0.9,
+  0.0002549942582845
+ ],
+ "vs_EED[all,dispatch]_lognormal_AWT": [
+  -1.6,
+  -1.9,
+  -1.4,
+  2.808868885040283e-06
+ ],
+ "vs_EED[all,dispatch]_lognormal_SD": [
+  -2.9,
+  2.808868885040283e-06
+ ],
+ "vs_RR-matched_pareto_AWT": [
+  -3.1,
+  -3.6,
+  -2.7,
+  2.808868885040283e-06
+ ],
+ "vs_RR-matched_pareto_SD": [
+  -3.5,
+  2.808868885040283e-06
+ ],
+ "vs_RandomBoost_pareto_AWT": [
+  -3.2,
+  -3.6,
+  -2.7,
+  2.808868885040283e-06
+ ],
+ "vs_RandomBoost_pareto_SD": [
+  -3.7,
+  2.808868885040283e-06
+ ],
+ "vs_EED[JFI-only]_pareto_AWT": [
+  -4.0,
+  -4.5,
+  -3.4,
+  2.808868885040283e-06
+ ],
+ "vs_EED[JFI-only]_pareto_SD": [
+  -6.0,
+  2.808868885040283e-06
+ ],
+ "vs_EED[deficit-only]_pareto_AWT": [
+  1.6,
+  1.3,
+  1.8,
+  2.808868885040283e-06
+ ],
+ "vs_EED[deficit-only]_pareto_SD": [
+  0.9,
+  4.2514875531196594e-05
+ ],
+ "vs_EED[all,dispatch]_pareto_AWT": [
+  -2.3,
+  -2.6,
+  -2.0,
+  2.808868885040283e-06
+ ],
+ "vs_EED[all,dispatch]_pareto_SD": [
+  -2.4,
+  2.808868885040283e-06
+ ],
+ "vs_RR-matched_bimodal_AWT": [
+  0.4,
+  0.3,
+  0.6,
+  0.0003814548254013
+ ],
+ "vs_RR-matched_bimodal_SD": [
+  -1.0,
+  2.808868885040283e-06
+ ],
+ "vs_RandomBoost_bimodal_AWT": [
+  0.4,
+  0.3,
+  0.5,
+  0.0046192668378353
+ ],
+ "vs_RandomBoost_bimodal_SD": [
+  -1.0,
+  2.808868885040283e-06
+ ],
+ "vs_EED[JFI-only]_bimodal_AWT": [
+  -1.2,
+  -1.4,
+  -1.0,
+  2.808868885040283e-06
+ ],
+ "vs_EED[JFI-only]_bimodal_SD": [
+  -5.5,
+  2.808868885040283e-06
+ ],
+ "vs_EED[deficit-only]_bimodal_AWT": [
+  -1.7,
+  -1.8,
+  -1.5,
+  2.808868885040283e-06
+ ],
+ "vs_EED[deficit-only]_bimodal_SD": [
+  -2.5,
+  2.808868885040283e-06
+ ],
+ "vs_EED[all,dispatch]_bimodal_AWT": [
+  -0.3,
+  -0.4,
+  -0.1,
+  1.0
+ ],
+ "vs_EED[all,dispatch]_bimodal_SD": [
+  -2.3,
+  2.808868885040283e-06
+ ],
+ "vs_RR-matched_SDSC-SP2-1998-4.2-cln_AWT": [
+  -0.9,
+  -1.8,
+  -0.1,
+  1.0
+ ],
+ "vs_RR-matched_SDSC-SP2-1998-4.2-cln_SD": [
+  -0.9,
+  0.0924487859010696
+ ],
+ "vs_RandomBoost_SDSC-SP2-1998-4.2-cln_AWT": [
+  -1.0,
+  -1.9,
+  -0.2,
+  1.0
+ ],
+ "vs_RandomBoost_SDSC-SP2-1998-4.2-cln_SD": [
+  -0.9,
+  0.0392947681248188
+ ],
+ "vs_EED[JFI-only]_SDSC-SP2-1998-4.2-cln_AWT": [
+  -2.1,
+  -2.4,
+  -1.8,
+  2.808868885040283e-06
+ ],
+ "vs_EED[JFI-only]_SDSC-SP2-1998-4.2-cln_SD": [
+  -8.2,
+  2.808868885040283e-06
+ ],
+ "vs_EED[deficit-only]_SDSC-SP2-1998-4.2-cln_AWT": [
+  -0.5,
+  -0.9,
+  -0.2,
+  1.0
+ ],
+ "vs_EED[deficit-only]_SDSC-SP2-1998-4.2-cln_SD": [
+  -1.8,
+  2.0442530512809757e-05
+ ],
+ "vs_EED[all,dispatch]_SDSC-SP2-1998-4.2-cln_AWT": [
+  -1.8,
+  -2.7,
+  -1.1,
+  1.5906989574432373e-05
+ ],
+ "vs_EED[all,dispatch]_SDSC-SP2-1998-4.2-cln_SD": [
+  -4.6,
+  2.808868885040283e-06
+ ],
+ "ratio_EED-RR_gaussian": [
+  0.875,
+  0.906,
+  1.064
+ ],
+ "ratio_EED-RR_exponential": [
+  1.0,
+  1.038,
+  1.055
+ ],
+ "ratio_EED-RR_lognormal": [
+  0.993,
+  1.014,
+  1.021
+ ],
+ "ratio_EED-RR_pareto": [
+  0.979,
+  0.988,
+  1.027
+ ],
+ "ratio_EED-RR_bimodal": [
+  1.014,
+  1.021,
+  1.025
+ ],
+ "ratio_EED-RR_SDSC-SP2-1998-4.2-cln": [
+  1.0,
+  1.031,
+  1.037
+ ],
+ "ratio_EED-RR(sf=1.5)_gaussian": [
+  0.788,
+  0.856,
+  1.082
+ ],
+ "ratio_EED-RR(sf=1.5)_exponential": [
+  0.998,
+  1.256,
+  1.343
+ ],
+ "ratio_EED-RR(sf=1.5)_lognormal": [
+  0.967,
+  1.098,
+  1.131
+ ],
+ "ratio_EED-RR(sf=1.5)_pareto": [
+  0.928,
+  0.999,
+  1.134
+ ],
+ "ratio_EED-RR(sf=1.5)_bimodal": [
+  1.095,
+  1.151,
+  1.172
+ ],
+ "ratio_EED-RR(sf=1.5)_SDSC-SP2-1998-4.2-cln": [
+  1.022,
+  1.203,
+  1.219
+ ],
+ "ratio_RR(x1.5)_gaussian": [
+  0.73,
+  0.814,
+  1.109
+ ],
+ "ratio_RR(x1.5)_exponential": [
+  1.001,
+  1.207,
+  1.271
+ ],
+ "ratio_RR(x1.5)_lognormal": [
+  1.103,
+  1.361,
+  1.41
+ ],
+ "ratio_RR(x1.5)_pareto": [
+  1.077,
+  1.177,
+  1.347
+ ],
+ "ratio_RR(x1.5)_bimodal": [
+  1.104,
+  1.332,
+  1.391
+ ],
+ "ratio_RR(x1.5)_SDSC-SP2-1998-4.2-cln": [
+  1.073,
+  1.38,
+  1.345
+ ],
+ "ratio_MARR_gaussian": [
+  0.828,
+  0.861,
+  0.97
+ ],
+ "ratio_MARR_exponential": [
+  0.782,
+  0.683,
+  0.993
+ ],
+ "ratio_MARR_lognormal": [
+  1.061,
+  1.262,
+  1.645
+ ],
+ "ratio_MARR_pareto": [
+  1.348,
+  1.457,
+  1.963
+ ],
+ "ratio_MARR_bimodal": [
+  0.924,
+  1.111,
+  1.437
+ ],
+ "ratio_MARR_SDSC-SP2-1998-4.2-cln": [
+  0.902,
+  1.185,
+  1.394
+ ],
+ "ratio_MARR(upper-median)_gaussian": [
+  0.827,
+  0.862,
+  0.975
+ ],
+ "ratio_MARR(upper-median)_exponential": [
+  0.781,
+  0.687,
+  1.005
+ ],
+ "ratio_MARR(upper-median)_lognormal": [
+  1.068,
+  1.29,
+  1.672
+ ],
+ "ratio_MARR(upper-median)_pareto": [
+  1.454,
+  1.57,
+  2.128
+ ],
+ "ratio_MARR(upper-median)_bimodal": [
+  0.932,
+  1.138,
+  1.475
+ ],
+ "ratio_MARR(upper-median)_SDSC-SP2-1998-4.2-cln": [
+  0.912,
+  1.202,
+  1.408
+ ],
+ "ratio_EImHLVQTRR_gaussian": [
+  0.718,
+  0.8,
+  1.08
+ ],
+ "ratio_EImHLVQTRR_exponential": [
+  0.812,
+  0.693,
+  0.759
+ ],
+ "ratio_EImHLVQTRR_lognormal": [
+  1.06,
+  1.152,
+  1.247
+ ],
+ "ratio_EImHLVQTRR_pareto": [
+  1.402,
+  1.651,
+  2.042
+ ],
+ "ratio_EImHLVQTRR_bimodal": [
+  0.936,
+  1.094,
+  1.151
+ ],
+ "ratio_EImHLVQTRR_SDSC-SP2-1998-4.2-cln": [
+  0.879,
+  0.954,
+  0.9
+ ],
+ "ratio_EImHLVQTRR(per-dispatch)_gaussian": [
+  1.146,
+  1.137,
+  0.423
+ ],
+ "ratio_EImHLVQTRR(per-dispatch)_exponential": [
+  0.958,
+  0.536,
+  0.493
+ ],
+ "ratio_EImHLVQTRR(per-dispatch)_lognormal": [
+  1.207,
+  1.007,
+  1.083
+ ],
+ "ratio_EImHLVQTRR(per-dispatch)_pareto": [
+  1.945,
+  2.105,
+  1.589
+ ],
+ "ratio_EImHLVQTRR(per-dispatch)_bimodal": [
+  0.947,
+  0.922,
+  0.922
+ ],
+ "ratio_EImHLVQTRR(per-dispatch)_SDSC-SP2-1998-4.2-cln": [
+  0.874,
+  0.252,
+  0.337
+ ],
+ "ratio_ADRR*_gaussian": [
+  0.92,
+  0.937,
+  1.048
+ ],
+ "ratio_ADRR*_exponential": [
+  1.021,
+  1.172,
+  1.223
+ ],
+ "ratio_ADRR*_lognormal": [
+  1.788,
+  2.586,
+  2.724
+ ],
+ "ratio_ADRR*_pareto": [
+  2.824,
+  3.239,
+  4.056
+ ],
+ "ratio_ADRR*_bimodal": [
+  1.171,
+  1.537,
+  1.632
+ ],
+ "ratio_ADRR*_SDSC-SP2-1998-4.2-cln": [
+  1.191,
+  1.867,
+  1.701
+ ],
+ "ratio_SARR_gaussian": [
+  1.03,
+  1.043,
+  0.886
+ ],
+ "ratio_SARR_exponential": [
+  0.993,
+  0.991,
+  1.012
+ ],
+ "ratio_SARR_lognormal": [
+  1.313,
+  1.643,
+  1.716
+ ],
+ "ratio_SARR_pareto": [
+  1.622,
+  1.736,
+  1.782
+ ],
+ "ratio_SARR_bimodal": [
+  1.137,
+  1.558,
+  1.657
+ ],
+ "ratio_SARR_SDSC-SP2-1998-4.2-cln": [
+  1.122,
+  1.482,
+  1.471
+ ],
+ "ratio_STS-RR_gaussian": [
+  0.807,
+  0.842,
+  0.976
+ ],
+ "ratio_STS-RR_exponential": [
+  0.776,
+  0.671,
+  0.991
+ ],
+ "ratio_STS-RR_lognormal": [
+  1.145,
+  1.384,
+  1.791
+ ],
+ "ratio_STS-RR_pareto": [
+  1.461,
+  1.584,
+  2.071
+ ],
+ "ratio_STS-RR_bimodal": [
+  0.936,
+  1.197,
+  1.511
+ ],
+ "ratio_STS-RR_SDSC-SP2-1998-4.2-cln": [
+  0.935,
+  1.321,
+  1.459
+ ],
+ "ratio_FCFS_gaussian": [
+  0.713,
+  0.805,
+  1.111
+ ],
+ "ratio_FCFS_exponential": [
+  1.011,
+  1.675,
+  1.845
+ ],
+ "ratio_FCFS_lognormal": [
+  2.741,
+  5.599,
+  6.037
+ ],
+ "ratio_FCFS_pareto": [
+  3.519,
+  4.714,
+  6.33
+ ],
+ "ratio_FCFS_bimodal": [
+  1.61,
+  3.355,
+  3.783
+ ],
+ "ratio_FCFS_SDSC-SP2-1998-4.2-cln": [
+  1.876,
+  5.215,
+  4.284
+ ],
+ "ratio_SJF_gaussian": [
+  0.545,
+  0.515,
+  0.85
+ ],
+ "ratio_SJF_exponential": [
+  0.38,
+  0.268,
+  0.693
+ ],
+ "ratio_SJF_lognormal": [
+  0.738,
+  0.929,
+  1.627
+ ],
+ "ratio_SJF_pareto": [
+  1.315,
+  1.382,
+  2.366
+ ],
+ "ratio_SJF_bimodal": [
+  0.501,
+  0.569,
+  1.176
+ ],
+ "ratio_SJF_SDSC-SP2-1998-4.2-cln": [
+  0.4,
+  0.266,
+  0.914
+ ],
+ "ratio_SRTF_gaussian": [
+  0.537,
+  0.497,
+  0.779
+ ],
+ "ratio_SRTF_exponential": [
+  0.298,
+  0.078,
+  0.413
+ ],
+ "ratio_SRTF_lognormal": [
+  0.21,
+  0.04,
+  0.228
+ ],
+ "ratio_SRTF_pareto": [
+  0.244,
+  0.198,
+  0.218
+ ],
+ "ratio_SRTF_bimodal": [
+  0.323,
+  0.1,
+  0.665
+ ],
+ "ratio_SRTF_SDSC-SP2-1998-4.2-cln": [
+  0.32,
+  0.008,
+  0.688
+ ],
+ "batch_RR(x1.25)_gaussian": 0.811,
+ "batch_RR(x1.25)_exponential": 1.001,
+ "batch_RR(x1.25)_lognormal": 1.024,
+ "batch_RR(x1.25)_pareto": 0.983,
+ "batch_RR(x1.25)_bimodal": 1.04,
+ "batch_RR(x1.5)_gaussian": 0.729,
+ "batch_RR(x1.5)_exponential": 1.002,
+ "batch_RR(x1.5)_lognormal": 1.047,
+ "batch_RR(x1.5)_pareto": 0.977,
+ "batch_RR(x1.5)_bimodal": 1.079,
+ "batch_RR(x2)_gaussian": 0.714,
+ "batch_RR(x2)_exponential": 1.002,
+ "batch_RR(x2)_lognormal": 1.091,
+ "batch_RR(x2)_pareto": 0.985,
+ "batch_RR(x2)_bimodal": 1.158,
+ "batch_FCFS_gaussian": 0.714,
+ "batch_FCFS_exponential": 1.002,
+ "batch_FCFS_lognormal": 1.672,
+ "batch_FCFS_pareto": 1.272,
+ "batch_FCFS_bimodal": 1.689,
+ "batch_EED-RR_gaussian": 0.827,
+ "batch_EED-RR_exponential": 1.001,
+ "batch_EED-RR_lognormal": 1.02,
+ "batch_EED-RR_pareto": 0.984,
+ "batch_EED-RR_bimodal": 1.036,
+ "batch_EED-RR(sf=1.5)_gaussian": 0.715,
+ "batch_EED-RR(sf=1.5)_exponential": 1.002,
+ "batch_EED-RR(sf=1.5)_lognormal": 1.119,
+ "batch_EED-RR(sf=1.5)_pareto": 0.995,
+ "batch_EED-RR(sf=1.5)_bimodal": 1.211,
+ "batch_EED-RR-original(sf=1.5)_gaussian": 0.792,
+ "batch_EED-RR-original(sf=1.5)_exponential": 1.0,
+ "batch_EED-RR-original(sf=1.5)_lognormal": 1.044,
+ "batch_EED-RR-original(sf=1.5)_pareto": 0.984,
+ "batch_EED-RR-original(sf=1.5)_bimodal": 1.078,
+ "batch_RR-matched(sf=1.5)_gaussian": 0.714,
+ "batch_RR-matched(sf=1.5)_exponential": 1.001,
+ "batch_RR-matched(sf=1.5)_lognormal": 1.06,
+ "batch_RR-matched(sf=1.5)_pareto": 0.983,
+ "batch_RR-matched(sf=1.5)_bimodal": 1.088,
+ "robustness": [
+  {
+   "dist": "gaussian",
+   "control": "RR",
+   "min": -13.6,
+   "max": -5.1,
+   "n_cells": 12,
+   "n_sig": 12,
+   "n_better": 12
+  },
+  {
+   "dist": "gaussian",
+   "control": "RR-matched",
+   "min": -5.9,
+   "max": -3.4,
+   "n_cells": 12,
+   "n_sig": 11,
+   "n_better": 11
+  },
+  {
+   "dist": "exponential",
+   "control": "RR",
+   "min": -0.2,
+   "max": 0.8,
+   "n_cells": 12,
+   "n_sig": 0,
+   "n_better": 0
+  },
+  {
+   "dist": "exponential",
+   "control": "RR-matched",
+   "min": -0.3,
+   "max": 0.7,
+   "n_cells": 12,
+   "n_sig": 0,
+   "n_better": 0
+  },
+  {
+   "dist": "lognormal",
+   "control": "RR",
+   "min": -1.5,
+   "max": 0.1,
+   "n_cells": 12,
+   "n_sig": 8,
+   "n_better": 8
+  },
+  {
+   "dist": "lognormal",
+   "control": "RR-matched",
+   "min": -2.3,
+   "max": -0.4,
+   "n_cells": 12,
+   "n_sig": 9,
+   "n_better": 9
+  },
+  {
+   "dist": "pareto",
+   "control": "RR",
+   "min": -2.8,
+   "max": -1.3,
+   "n_cells": 12,
+   "n_sig": 8,
+   "n_better": 8
+  },
+  {
+   "dist": "pareto",
+   "control": "RR-matched",
+   "min": -4.3,
+   "max": -0.9,
+   "n_cells": 12,
+   "n_sig": 8,
+   "n_better": 8
+  },
+  {
+   "dist": "bimodal",
+   "control": "RR",
+   "min": 1.2,
+   "max": 1.8,
+   "n_cells": 12,
+   "n_sig": 12,
+   "n_better": 0
+  },
+  {
+   "dist": "bimodal",
+   "control": "RR-matched",
+   "min": 0.1,
+   "max": 0.9,
+   "n_cells": 12,
+   "n_sig": 8,
+   "n_better": 0
+  }
+ ],
+ "switchcost": [
+  {
+   "dist": "bimodal",
+   "switch_cost_frac": 0.01,
+   "control": "RR",
+   "rel_pct": 1.329,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "bimodal",
+   "switch_cost_frac": 0.01,
+   "control": "RR-matched",
+   "rel_pct": 0.564,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "bimodal",
+   "switch_cost_frac": 0.05,
+   "control": "RR",
+   "rel_pct": 0.726,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "bimodal",
+   "switch_cost_frac": 0.05,
+   "control": "RR-matched",
+   "rel_pct": 1.457,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "exponential",
+   "switch_cost_frac": 0.01,
+   "control": "RR",
+   "rel_pct": -0.673,
+   "p_holm": 0.155
+  },
+  {
+   "dist": "exponential",
+   "switch_cost_frac": 0.01,
+   "control": "RR-matched",
+   "rel_pct": -0.145,
+   "p_holm": 1.0
+  },
+  {
+   "dist": "exponential",
+   "switch_cost_frac": 0.05,
+   "control": "RR",
+   "rel_pct": -4.021,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "exponential",
+   "switch_cost_frac": 0.05,
+   "control": "RR-matched",
+   "rel_pct": -0.299,
+   "p_holm": 1.0
+  },
+  {
+   "dist": "gaussian",
+   "switch_cost_frac": 0.01,
+   "control": "RR",
+   "rel_pct": -14.803,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "gaussian",
+   "switch_cost_frac": 0.01,
+   "control": "RR-matched",
+   "rel_pct": -6.394,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "gaussian",
+   "switch_cost_frac": 0.05,
+   "control": "RR",
+   "rel_pct": -26.91,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "gaussian",
+   "switch_cost_frac": 0.05,
+   "control": "RR-matched",
+   "rel_pct": -8.655,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "lognormal",
+   "switch_cost_frac": 0.01,
+   "control": "RR",
+   "rel_pct": -0.996,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "lognormal",
+   "switch_cost_frac": 0.01,
+   "control": "RR-matched",
+   "rel_pct": -2.005,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "lognormal",
+   "switch_cost_frac": 0.05,
+   "control": "RR",
+   "rel_pct": -2.096,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "lognormal",
+   "switch_cost_frac": 0.05,
+   "control": "RR-matched",
+   "rel_pct": -1.68,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "pareto",
+   "switch_cost_frac": 0.01,
+   "control": "RR",
+   "rel_pct": -2.698,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "pareto",
+   "switch_cost_frac": 0.01,
+   "control": "RR-matched",
+   "rel_pct": -3.548,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "pareto",
+   "switch_cost_frac": 0.05,
+   "control": "RR",
+   "rel_pct": -4.096,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "pareto",
+   "switch_cost_frac": 0.05,
+   "control": "RR-matched",
+   "rel_pct": -3.495,
+   "p_holm": 0.0
+  }
+ ],
+ "sf15": [
+  {
+   "dist": "bimodal",
+   "control": "RR",
+   "metric": "AWT",
+   "rel_pct": 9.539,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "bimodal",
+   "control": "RR-matched(sf=1.5)",
+   "metric": "AWT",
+   "rel_pct": 2.89,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "bimodal",
+   "control": "RandomBoost(sf=1.5)",
+   "metric": "AWT",
+   "rel_pct": 2.976,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "bimodal",
+   "control": "EED-RR-original(sf=1.5)",
+   "metric": "AWT",
+   "rel_pct": -0.131,
+   "p_holm": 1.0
+  },
+  {
+   "dist": "bimodal",
+   "control": "MARR",
+   "metric": "AWT",
+   "rel_pct": 18.523,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "bimodal",
+   "control": "EImHLVQTRR",
+   "metric": "AWT",
+   "rel_pct": 16.986,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "bimodal",
+   "control": "FCFS",
+   "metric": "AWT",
+   "rel_pct": -31.958,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "bimodal",
+   "control": "SRTF",
+   "metric": "AWT",
+   "rel_pct": 238.955,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "bimodal",
+   "control": "RR",
+   "metric": "W_short",
+   "rel_pct": 17.255,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "bimodal",
+   "control": "RR-matched(sf=1.5)",
+   "metric": "W_short",
+   "rel_pct": -5.125,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "bimodal",
+   "control": "RandomBoost(sf=1.5)",
+   "metric": "W_short",
+   "rel_pct": -5.15,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "bimodal",
+   "control": "EED-RR-original(sf=1.5)",
+   "metric": "W_short",
+   "rel_pct": -10.482,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "bimodal",
+   "control": "MARR",
+   "metric": "W_short",
+   "rel_pct": 7.238,
+   "p_holm": 1.0
+  },
+  {
+   "dist": "bimodal",
+   "control": "EImHLVQTRR",
+   "metric": "W_short",
+   "rel_pct": 4.796,
+   "p_holm": 1.0
+  },
+  {
+   "dist": "bimodal",
+   "control": "FCFS",
+   "metric": "W_short",
+   "rel_pct": -69.095,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "bimodal",
+   "control": "SRTF",
+   "metric": "W_short",
+   "rel_pct": 29544.986,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "bimodal",
+   "control": "RR",
+   "metric": "SD_mean",
+   "rel_pct": 15.126,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "bimodal",
+   "control": "RR-matched(sf=1.5)",
+   "metric": "SD_mean",
+   "rel_pct": -4.123,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "bimodal",
+   "control": "RandomBoost(sf=1.5)",
+   "metric": "SD_mean",
+   "rel_pct": -4.069,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "bimodal",
+   "control": "EED-RR-original(sf=1.5)",
+   "metric": "SD_mean",
+   "rel_pct": -8.957,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "bimodal",
+   "control": "MARR",
+   "metric": "SD_mean",
+   "rel_pct": 3.665,
+   "p_holm": 1.0
+  },
+  {
+   "dist": "bimodal",
+   "control": "EImHLVQTRR",
+   "metric": "SD_mean",
+   "rel_pct": 5.209,
+   "p_holm": 1.0
+  },
+  {
+   "dist": "bimodal",
+   "control": "FCFS",
+   "metric": "SD_mean",
+   "rel_pct": -65.689,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "bimodal",
+   "control": "SRTF",
+   "metric": "SD_mean",
+   "rel_pct": 1047.789,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "exponential",
+   "control": "RR",
+   "metric": "AWT",
+   "rel_pct": -0.233,
+   "p_holm": 1.0
+  },
+  {
+   "dist": "exponential",
+   "control": "RR-matched(sf=1.5)",
+   "metric": "AWT",
+   "rel_pct": -0.416,
+   "p_holm": 1.0
+  },
+  {
+   "dist": "exponential",
+   "control": "RandomBoost(sf=1.5)",
+   "metric": "AWT",
+   "rel_pct": -0.466,
+   "p_holm": 1.0
+  },
+  {
+   "dist": "exponential",
+   "control": "EED-RR-original(sf=1.5)",
+   "metric": "AWT",
+   "rel_pct": -0.192,
+   "p_holm": 1.0
+  },
+  {
+   "dist": "exponential",
+   "control": "MARR",
+   "metric": "AWT",
+   "rel_pct": 27.535,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "exponential",
+   "control": "EImHLVQTRR",
+   "metric": "AWT",
+   "rel_pct": 22.85,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "exponential",
+   "control": "FCFS",
+   "metric": "AWT",
+   "rel_pct": -1.335,
+   "p_holm": 1.0
+  },
+  {
+   "dist": "exponential",
+   "control": "SRTF",
+   "metric": "AWT",
+   "rel_pct": 234.685,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "exponential",
+   "control": "RR",
+   "metric": "W_short",
+   "rel_pct": 34.282,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "exponential",
+   "control": "RR-matched(sf=1.5)",
+   "metric": "W_short",
+   "rel_pct": 2.083,
+   "p_holm": 0.01
+  },
+  {
+   "dist": "exponential",
+   "control": "RandomBoost(sf=1.5)",
+   "metric": "W_short",
+   "rel_pct": 3.37,
+   "p_holm": 0.001
+  },
+  {
+   "dist": "exponential",
+   "control": "EED-RR-original(sf=1.5)",
+   "metric": "W_short",
+   "rel_pct": 10.809,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "exponential",
+   "control": "MARR",
+   "metric": "W_short",
+   "rel_pct": 106.225,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "exponential",
+   "control": "EImHLVQTRR",
+   "metric": "W_short",
+   "rel_pct": 85.385,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "exponential",
+   "control": "FCFS",
+   "metric": "W_short",
+   "rel_pct": -26.983,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "exponential",
+   "control": "SRTF",
+   "metric": "W_short",
+   "rel_pct": 27553.642,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "exponential",
+   "control": "RR",
+   "metric": "SD_mean",
+   "rel_pct": 25.551,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "exponential",
+   "control": "RR-matched(sf=1.5)",
+   "metric": "SD_mean",
+   "rel_pct": 1.145,
+   "p_holm": 0.439
+  },
+  {
+   "dist": "exponential",
+   "control": "RandomBoost(sf=1.5)",
+   "metric": "SD_mean",
+   "rel_pct": 2.035,
+   "p_holm": 0.04
+  },
+  {
+   "dist": "exponential",
+   "control": "EED-RR-original(sf=1.5)",
+   "metric": "SD_mean",
+   "rel_pct": 8.363,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "exponential",
+   "control": "MARR",
+   "metric": "SD_mean",
+   "rel_pct": 83.788,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "exponential",
+   "control": "EImHLVQTRR",
+   "metric": "SD_mean",
+   "rel_pct": 81.211,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "exponential",
+   "control": "FCFS",
+   "metric": "SD_mean",
+   "rel_pct": -25.027,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "exponential",
+   "control": "SRTF",
+   "metric": "SD_mean",
+   "rel_pct": 1519.652,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "gaussian",
+   "control": "RR",
+   "metric": "AWT",
+   "rel_pct": -21.17,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "gaussian",
+   "control": "RR-matched(sf=1.5)",
+   "metric": "AWT",
+   "rel_pct": 9.164,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "gaussian",
+   "control": "RandomBoost(sf=1.5)",
+   "metric": "AWT",
+   "rel_pct": 2.547,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "gaussian",
+   "control": "EED-RR-original(sf=1.5)",
+   "metric": "AWT",
+   "rel_pct": -2.498,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "gaussian",
+   "control": "MARR",
+   "metric": "AWT",
+   "rel_pct": -4.75,
+   "p_holm": 0.001
+  },
+  {
+   "dist": "gaussian",
+   "control": "EImHLVQTRR",
+   "metric": "AWT",
+   "rel_pct": 9.777,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "gaussian",
+   "control": "FCFS",
+   "metric": "AWT",
+   "rel_pct": 10.593,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "gaussian",
+   "control": "SRTF",
+   "metric": "AWT",
+   "rel_pct": 46.681,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "gaussian",
+   "control": "RR",
+   "metric": "W_short",
+   "rel_pct": 8.364,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "gaussian",
+   "control": "RR-matched(sf=1.5)",
+   "metric": "W_short",
+   "rel_pct": -2.511,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "gaussian",
+   "control": "RandomBoost(sf=1.5)",
+   "metric": "W_short",
+   "rel_pct": -1.21,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "gaussian",
+   "control": "EED-RR-original(sf=1.5)",
+   "metric": "W_short",
+   "rel_pct": -0.152,
+   "p_holm": 1.0
+  },
+  {
+   "dist": "gaussian",
+   "control": "MARR",
+   "metric": "W_short",
+   "rel_pct": 7.599,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "gaussian",
+   "control": "EImHLVQTRR",
+   "metric": "W_short",
+   "rel_pct": 0.542,
+   "p_holm": 1.0
+  },
+  {
+   "dist": "gaussian",
+   "control": "FCFS",
+   "metric": "W_short",
+   "rel_pct": -2.655,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "gaussian",
+   "control": "SRTF",
+   "metric": "W_short",
+   "rel_pct": 1265.486,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "gaussian",
+   "control": "RR",
+   "metric": "SD_mean",
+   "rel_pct": -14.36,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "gaussian",
+   "control": "RR-matched(sf=1.5)",
+   "metric": "SD_mean",
+   "rel_pct": 5.759,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "gaussian",
+   "control": "RandomBoost(sf=1.5)",
+   "metric": "SD_mean",
+   "rel_pct": 2.003,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "gaussian",
+   "control": "EED-RR-original(sf=1.5)",
+   "metric": "SD_mean",
+   "rel_pct": -0.871,
+   "p_holm": 0.019
+  },
+  {
+   "dist": "gaussian",
+   "control": "MARR",
+   "metric": "SD_mean",
+   "rel_pct": -0.533,
+   "p_holm": 1.0
+  },
+  {
+   "dist": "gaussian",
+   "control": "EImHLVQTRR",
+   "metric": "SD_mean",
+   "rel_pct": 7.109,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "gaussian",
+   "control": "FCFS",
+   "metric": "SD_mean",
+   "rel_pct": 6.369,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "gaussian",
+   "control": "SRTF",
+   "metric": "SD_mean",
+   "rel_pct": 72.428,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "lognormal",
+   "control": "RR",
+   "metric": "AWT",
+   "rel_pct": -3.251,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "lognormal",
+   "control": "RR-matched(sf=1.5)",
+   "metric": "AWT",
+   "rel_pct": -10.278,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "lognormal",
+   "control": "RandomBoost(sf=1.5)",
+   "metric": "AWT",
+   "rel_pct": -10.778,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "lognormal",
+   "control": "EED-RR-original(sf=1.5)",
+   "metric": "AWT",
+   "rel_pct": -8.149,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "lognormal",
+   "control": "MARR",
+   "metric": "AWT",
+   "rel_pct": -8.826,
+   "p_holm": 0.002
+  },
+  {
+   "dist": "lognormal",
+   "control": "EImHLVQTRR",
+   "metric": "AWT",
+   "rel_pct": -8.697,
+   "p_holm": 1.0
+  },
+  {
+   "dist": "lognormal",
+   "control": "FCFS",
+   "metric": "AWT",
+   "rel_pct": -64.699,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "lognormal",
+   "control": "SRTF",
+   "metric": "AWT",
+   "rel_pct": 361.464,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "lognormal",
+   "control": "RR",
+   "metric": "W_short",
+   "rel_pct": 12.975,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "lognormal",
+   "control": "RR-matched(sf=1.5)",
+   "metric": "W_short",
+   "rel_pct": -14.064,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "lognormal",
+   "control": "RandomBoost(sf=1.5)",
+   "metric": "W_short",
+   "rel_pct": -13.929,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "lognormal",
+   "control": "EED-RR-original(sf=1.5)",
+   "metric": "W_short",
+   "rel_pct": -13.117,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "lognormal",
+   "control": "MARR",
+   "metric": "W_short",
+   "rel_pct": -10.897,
+   "p_holm": 0.047
+  },
+  {
+   "dist": "lognormal",
+   "control": "EImHLVQTRR",
+   "metric": "W_short",
+   "rel_pct": -5.272,
+   "p_holm": 1.0
+  },
+  {
+   "dist": "lognormal",
+   "control": "FCFS",
+   "metric": "W_short",
+   "rel_pct": -81.223,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "lognormal",
+   "control": "SRTF",
+   "metric": "W_short",
+   "rel_pct": 93321.471,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "lognormal",
+   "control": "RR",
+   "metric": "SD_mean",
+   "rel_pct": 9.795,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "lognormal",
+   "control": "RR-matched(sf=1.5)",
+   "metric": "SD_mean",
+   "rel_pct": -14.039,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "lognormal",
+   "control": "RandomBoost(sf=1.5)",
+   "metric": "SD_mean",
+   "rel_pct": -14.094,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "lognormal",
+   "control": "EED-RR-original(sf=1.5)",
+   "metric": "SD_mean",
+   "rel_pct": -12.72,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "lognormal",
+   "control": "MARR",
+   "metric": "SD_mean",
+   "rel_pct": -13.005,
+   "p_holm": 0.002
+  },
+  {
+   "dist": "lognormal",
+   "control": "EImHLVQTRR",
+   "metric": "SD_mean",
+   "rel_pct": -4.673,
+   "p_holm": 1.0
+  },
+  {
+   "dist": "lognormal",
+   "control": "FCFS",
+   "metric": "SD_mean",
+   "rel_pct": -80.391,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "lognormal",
+   "control": "SRTF",
+   "metric": "SD_mean",
+   "rel_pct": 2626.559,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "pareto",
+   "control": "RR",
+   "metric": "AWT",
+   "rel_pct": -7.194,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "pareto",
+   "control": "RR-matched(sf=1.5)",
+   "metric": "AWT",
+   "rel_pct": -14.064,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "pareto",
+   "control": "RandomBoost(sf=1.5)",
+   "metric": "AWT",
+   "rel_pct": -15.239,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "pareto",
+   "control": "EED-RR-original(sf=1.5)",
+   "metric": "AWT",
+   "rel_pct": -9.24,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "pareto",
+   "control": "MARR",
+   "metric": "AWT",
+   "rel_pct": -31.147,
+   "p_holm": 0.002
+  },
+  {
+   "dist": "pareto",
+   "control": "EImHLVQTRR",
+   "metric": "AWT",
+   "rel_pct": -33.812,
+   "p_holm": 0.019
+  },
+  {
+   "dist": "pareto",
+   "control": "FCFS",
+   "metric": "AWT",
+   "rel_pct": -73.628,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "pareto",
+   "control": "SRTF",
+   "metric": "AWT",
+   "rel_pct": 279.797,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "pareto",
+   "control": "RR",
+   "metric": "W_short",
+   "rel_pct": 13.444,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "pareto",
+   "control": "RR-matched(sf=1.5)",
+   "metric": "W_short",
+   "rel_pct": -16.261,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "pareto",
+   "control": "RandomBoost(sf=1.5)",
+   "metric": "W_short",
+   "rel_pct": -16.421,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "pareto",
+   "control": "EED-RR-original(sf=1.5)",
+   "metric": "W_short",
+   "rel_pct": -5.985,
+   "p_holm": 0.098
+  },
+  {
+   "dist": "pareto",
+   "control": "MARR",
+   "metric": "W_short",
+   "rel_pct": -24.576,
+   "p_holm": 1.0
+  },
+  {
+   "dist": "pareto",
+   "control": "EImHLVQTRR",
+   "metric": "W_short",
+   "rel_pct": -44.259,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "pareto",
+   "control": "FCFS",
+   "metric": "W_short",
+   "rel_pct": -82.129,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "pareto",
+   "control": "SRTF",
+   "metric": "W_short",
+   "rel_pct": 4503.858,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "pareto",
+   "control": "RR",
+   "metric": "SD_mean",
+   "rel_pct": -0.135,
+   "p_holm": 1.0
+  },
+  {
+   "dist": "pareto",
+   "control": "RR-matched(sf=1.5)",
+   "metric": "SD_mean",
+   "rel_pct": -15.533,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "pareto",
+   "control": "RandomBoost(sf=1.5)",
+   "metric": "SD_mean",
+   "rel_pct": -16.473,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "pareto",
+   "control": "EED-RR-original(sf=1.5)",
+   "metric": "SD_mean",
+   "rel_pct": -8.241,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "pareto",
+   "control": "MARR",
+   "metric": "SD_mean",
+   "rel_pct": -31.455,
+   "p_holm": 0.016
+  },
+  {
+   "dist": "pareto",
+   "control": "EImHLVQTRR",
+   "metric": "SD_mean",
+   "rel_pct": -39.506,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "pareto",
+   "control": "FCFS",
+   "metric": "SD_mean",
+   "rel_pct": -78.817,
+   "p_holm": 0.0
+  },
+  {
+   "dist": "pareto",
+   "control": "SRTF",
+   "metric": "SD_mean",
+   "rel_pct": 403.2,
+   "p_holm": 0.0
+  }
+ ],
+ "sf_selection": {
+  "rule": "argmin geometric-mean(SD_mean_EED / SD_mean_RR) over validation workloads",
+  "chosen_sf": 0.25,
+  "table": [
+   {
+    "sf": 0.25,
+    "gm_ratio_SD_mean": 0.9949040338683464,
+    "gm_ratio_AWT": 0.9765943352712871,
+    "gm_ratio_W_short": 1.0310984690574292,
+    "gm_ratio_resp_mean": 1.0317681271508714,
+    "gm_ratio_W_p99": 0.9897255996451002,
+    "gm_ratio_JFI_final": 1.0087982999377878
+   },
+   {
+    "sf": 0.5,
+    "gm_ratio_SD_mean": 0.9994496696385934,
+    "gm_ratio_AWT": 0.9627274934702409,
+    "gm_ratio_W_short": 1.0568953712530034,
+    "gm_ratio_resp_mean": 1.057018285354484,
+    "gm_ratio_W_p99": 0.9688367993151197,
+    "gm_ratio_JFI_final": 1.0131062969319622
+   },
+   {
+    "sf": 1.0,
+    "gm_ratio_SD_mean": 1.0231841457611621,
+    "gm_ratio_AWT": 0.9573359166078222,
+    "gm_ratio_W_short": 1.101333841498785,
+    "gm_ratio_resp_mean": 1.10179205210327,
+    "gm_ratio_W_p99": 0.9568433423224953,
+    "gm_ratio_JFI_final": 1.0149337784909185
+   },
+   {
+    "sf": 1.5,
+    "gm_ratio_SD_mean": 1.0511233773516175,
+    "gm_ratio_AWT": 0.9609587536450438,
+    "gm_ratio_W_short": 1.143411472192417,
+    "gm_ratio_resp_mean": 1.1446557391354677,
+    "gm_ratio_W_p99": 0.9586341501824264,
+    "gm_ratio_JFI_final": 1.013517541787151
+   },
+   {
+    "sf": 2.0,
+    "gm_ratio_SD_mean": 1.0802132237731092,
+    "gm_ratio_AWT": 0.9659765235723003,
+    "gm_ratio_W_short": 1.1867641533978912,
+    "gm_ratio_resp_mean": 1.186823689961784,
+    "gm_ratio_W_p99": 0.9555663813667453,
+    "gm_ratio_JFI_final": 1.0115604469494917
+   },
+   {
+    "sf": 3.0,
+    "gm_ratio_SD_mean": 1.1368810528296625,
+    "gm_ratio_AWT": 0.9814610202297149,
+    "gm_ratio_W_short": 1.2644092086203205,
+    "gm_ratio_resp_mean": 1.26513163604518,
+    "gm_ratio_W_p99": 0.9345322546565644,
+    "gm_ratio_JFI_final": 1.0057377902110425
+   },
+   {
+    "sf": 5.0,
+    "gm_ratio_SD_mean": 1.2534690356805511,
+    "gm_ratio_AWT": 1.0256727569730983,
+    "gm_ratio_W_short": 1.4225753485404082,
+    "gm_ratio_resp_mean": 1.4234719438404964,
+    "gm_ratio_W_p99": 0.9105024344471814,
+    "gm_ratio_JFI_final": 0.9918178609830369
+   }
+  ]
+ },
+ "legacy_repro": {
+  "EED-RR-original(sf=1.5)": {
+   "AWT": 114491.06,
+   "dispatches": 1075.6
+  },
+  "RR": {
+   "AWT": 143864.98,
+   "dispatches": 1500.8
+  }
+ },
+ "legacy_ratio": {
+  "EED-RR": 0.836,
+  "EED-RR-original(sf=1.5)": 0.796,
+  "RR(x1.5)": 0.733,
+  "RR(x2)": 0.715,
+  "FCFS": 0.715,
+  "RR-matched(sf=1.5)": 0.715
+ }
+}

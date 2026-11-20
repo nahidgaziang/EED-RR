@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+# new runs (the archived run lives in results/ and paper/)
+results_new/
+results_smoke/
+paper_new/
+*.log
