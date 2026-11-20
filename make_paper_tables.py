@@ -1,7 +1,7 @@
 """Generate the paper's LaTeX tables, key numbers and figure files from a results directory.
 
   python make_paper_tables.py --results results --out paper
-Writes paper/tables/*.tex, paper/tables/key_numbers.json and paper/figures/Fig1-4 (.tif + .png).
+Writes paper/tables/*.tex, paper/tables/key_numbers.json and paper/figures/Fig1-5 (.tif + .png).
 Run analyze.py on the results directory first.
 """
 import argparse
@@ -167,14 +167,17 @@ def main(results, out):
     print("tables written to", out)
 
 
-FIGURES = {"Fig1": "fig_heatmap_relative", "Fig2": "fig_waiting_by_job_class",
-           "Fig3": "fig_jain_over_time", "Fig4": "fig_sensitivity_validation"}
+FIGURES = {"Fig2": "fig_heatmap_relative", "Fig3": "fig_waiting_by_job_class",
+           "Fig4": "fig_jain_over_time", "Fig5": "fig_sensitivity_validation"}
 
 
 def export_figures(results, out):
-    """Copy the analysis figures under their manuscript names (citation order)."""
+    """Write Fig1 (flowchart) and copy the analysis figures under their manuscript names."""
     import shutil
+
+    from eedrr_bench.flowchart import draw
     out.mkdir(parents=True, exist_ok=True)
+    draw(out, "Fig1")
     for name, src in FIGURES.items():
         for ext in (".tif", ".png"):
             shutil.copyfile(results / "analysis" / "figures" / (src + ext), out / (name + ext))

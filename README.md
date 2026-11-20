@@ -25,7 +25,7 @@ Reproduce the paper (about 5 minutes on 10 cores, under an hour on a 4-core Kagg
 ```bash
 python run.py --config full --out results_new      # all experiments (uses data/ trace)
 python analyze.py --results results_new            # statistics, tables, figures -> results_new/analysis/
-python make_paper_tables.py --results results_new --out paper_new   # paper tables, Fig1-4
+python make_paper_tables.py --results results_new --out paper_new   # paper tables, Fig1-5
 ```
 
 The archived output of exactly these commands is in `results/` and `paper/`. Re-running produces identical
@@ -46,11 +46,12 @@ and choose *Save & Run All* (no internet needed).
 | `eedrr_bench/stats.py` | Paired bootstrap CIs, exact Wilcoxon, Holm correction, d_z, rank-biserial, Hodges–Lehmann |
 | `eedrr_bench/analysis.py` | Tables, PLOS-ready TIFF figures with the data behind each, results digest |
 | `eedrr_bench/worked_example.py` | The single-dispatch worked example in the paper (`python -m eedrr_bench.worked_example`) |
+| `eedrr_bench/flowchart.py` | Flowchart of the EED-RR scheduling loop (Fig 1) |
 | `run.py`, `analyze.py`, `make_paper_tables.py` | Entry points (see Quick start) |
 | `tests/test_core.py` | Textbook oracles, worked examples, published MARR example, exact reproduction of the earlier version, invariants |
 | `data/` | Input data with provenance and licences (see `data/README.md`) |
 | `results/` | Archived raw per-instance results, validation selection, statistics and figures (`results/analysis/headline.md` is a readable digest) |
-| `paper/` | Generated LaTeX tables, `key_numbers.json`, and Fig1–Fig4 as submitted |
+| `paper/` | Generated LaTeX tables, `key_numbers.json`, and Fig1–Fig5 as submitted |
 | `notebooks/` | Kaggle notebook that runs tests → experiments → analysis |
 
 ## Experimental design (summary)

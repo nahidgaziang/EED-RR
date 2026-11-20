@@ -37,6 +37,27 @@ REF = "#898781"
 INK, INK2, MUTED, GRID, BASE = "#0b0b0b", "#52514e", "#898781", "#e1e0d9", "#c3c2b7"
 DIV_LO, DIV_MID, DIV_HI = "#2a78d6", "#f0efec", "#e34948"
 
+DIST_ORDER = ["gaussian", "exponential", "lognormal", "pareto", "bimodal"]
+DIST_NAME = {"gaussian": "Gaussian", "exponential": "Exponential", "lognormal": "Lognormal",
+             "pareto": "Pareto", "bimodal": "Bimodal"}
+POLICY_NAME = {"RR-matched": "Equal-budget RR", "RandomBoost": "Random boost",
+               "EED[JFI-only]": "JFI only", "EED[deficit-only]": "Deficit only",
+               "EED[all,dispatch]": "Original state def.", "RR(x1.5)": "RR, 1.5x quantum"}
+
+
+def ordered(dists):
+    """Distributions in a fixed order (the order of the paper's tables)."""
+    present = list(dict.fromkeys(dists))
+    return [d for d in DIST_ORDER if d in present] + [d for d in present if d not in DIST_ORDER]
+
+
+def dname(d):
+    return DIST_NAME.get(d, d)
+
+
+def pname(p):
+    return POLICY_NAME.get(p, p)
+
 
 # ------------------------------------------------------------------------- loading
 def load(results_dir: str | Path) -> dict[str, pd.DataFrame]:
@@ -131,7 +152,7 @@ def fig_heatmaps(pt: pd.DataFrame, out: Path, n: int = 1000, proposed: str = "EE
     sub = pt[(pt.family == "synthetic") & (pt.n == n) & (pt.proposed == proposed)]
     if sub.empty:
         return
-    dists = list(dict.fromkeys(sub.dist))
+    dists = ordered(sub.dist)
     loads = sorted(sub.load.unique())
     cmap = LinearSegmentedColormap.from_list("div", [DIV_LO, DIV_MID, DIV_HI])
     mats, data = [], []
@@ -162,7 +183,7 @@ def fig_heatmaps(pt: pd.DataFrame, out: Path, n: int = 1000, proposed: str = "EE
         ax.set_xticks(range(len(loads)), [f"{L:g}" for L in loads])
         ax.set_xlabel("Offered load ρ")
         ax.set_title(title, loc="left")
-    axes[0].set_yticks(range(len(dists)), dists)
+    axes[0].set_yticks(range(len(dists)), [dname(d) for d in dists])
     cb = fig.colorbar(im, ax=axes, shrink=0.85, pad=0.02)
     cb.set_label("Difference, % (negative = proposed better)")
     cb.outline.set_visible(False)
@@ -180,7 +201,7 @@ def fig_sensitivity(val: pd.DataFrame, out: Path):
     eed = val[val.policy == "EED-RR"]
     series = [("AWT", "Mean waiting", BLUE, "o"), ("W_short", "Short-job waiting", ORANGE, "s"),
               ("SD_mean", "Mean slowdown", AQUA, "^")]
-    dists = list(dict.fromkeys(val.dist))
+    dists = ordered(val.dist)
     fig, axes = plt.subplots(1, len(dists), figsize=(7.5, 2.2), sharey=True)
     axes = np.atleast_1d(axes)
     rows = []
@@ -196,7 +217,7 @@ def fig_sensitivity(val: pd.DataFrame, out: Path):
                 rows.append(dict(dist=d, metric=m, sf=float(sf), gm_ratio_vs_RR=r))
             ax.plot(xs, ys, color=col, marker=mk, label=lab)
         ax.axhline(1.0, color=REF, lw=1, ls="--")
-        ax.set_title(d, loc="left")
+        ax.set_title(dname(d), loc="left")
         ax.set_xlabel("Scaling factor sf")
     axes[0].set_ylabel("Ratio to RR (validation)")
     handles, labels = axes[0].get_legend_handles_labels()
@@ -207,7 +228,7 @@ def fig_sensitivity(val: pd.DataFrame, out: Path):
 def fig_jfi_time(series: pd.DataFrame, out: Path):
     import matplotlib.pyplot as plt
     show = [("EED-RR", BLUE, "-"), ("RR", REF, "--"), ("MARR", ORANGE, "-")]
-    dists = list(dict.fromkeys(series.dist))
+    dists = ordered(series.dist)
     fig, axes = plt.subplots(1, len(dists), figsize=(7.5, 2.1), sharey=True)
     axes = np.atleast_1d(axes)
     for ax, d in zip(axes, dists):
@@ -217,8 +238,8 @@ def fig_jfi_time(series: pd.DataFrame, out: Path):
             g = s[s.policy == pol].sort_values("t")
             if len(g):
                 sm = g.J.rolling(15, center=True, min_periods=5).mean()
-                ax.plot(g.t / tmax, sm, color=col, ls=ls, lw=1.3, label=pol)
-        ax.set_title(d, loc="left")
+                ax.plot(g.t / tmax, sm, color=col, ls=ls, lw=1.3, label=pname(pol))
+        ax.set_title(dname(d), loc="left")
         ax.set_xlabel("Time / makespan")
         ax.set_ylim(0, 1.02)
     axes[0].set_ylabel("Jain index of x(t)")
@@ -236,7 +257,7 @@ def fig_class_waiting(test: pd.DataFrame, out: Path, n: int = 1000, load: float 
         return
     pols = [("EED-RR", BLUE), ("RR-matched", ORANGE), ("RandomBoost", AQUA)]
     classes = [("W_short", "short"), ("W_medium", "medium"), ("W_long", "long")]
-    dists = list(dict.fromkeys(sub.dist))
+    dists = ordered(sub.dist)
     fig, axes = plt.subplots(1, len(dists), figsize=(7.5, 2.2), sharey=True)
     axes = np.atleast_1d(axes)
     rows = []
@@ -248,12 +269,12 @@ def fig_class_waiting(test: pd.DataFrame, out: Path, n: int = 1000, load: float 
                 continue
             vals = [100.0 * (g.loc[pol, c] / g.loc["RR", c] - 1.0) for c, _ in classes]
             x = np.arange(len(classes)) + (k - 1) * w
-            ax.bar(x, vals, width=w * 0.9, color=col, label=pol, edgecolor="white", linewidth=0.8)
+            ax.bar(x, vals, width=w * 0.9, color=col, label=pname(pol), edgecolor="white", linewidth=0.8)
             rows += [dict(dist=d, policy=pol, job_class=cl, pct_change_vs_RR=v)
                      for (_, cl), v in zip(classes, vals)]
         ax.axhline(0.0, color=BASE, lw=0.8)
         ax.set_xticks(range(len(classes)), [cl for _, cl in classes])
-        ax.set_title(d, loc="left")
+        ax.set_title(dname(d), loc="left")
         ax.grid(axis="x", visible=False)
     axes[0].set_ylabel(f"Mean waiting, % vs RR\n(ρ={load:g}, n={n}; burst terciles)")
     handles, labels = axes[0].get_legend_handles_labels()
@@ -291,7 +312,7 @@ def fig_forest(pt: pd.DataFrame, out: Path, family: str, n: int | None, load: fl
             ax.set_title(LABEL[m], loc="left")
             ax.set_xlabel("% vs control")
             ax.grid(axis="y", visible=False)
-        axes[0].set_yticks(np.arange(len(ctrls))[::-1], ctrls)
+        axes[0].set_yticks(np.arange(len(ctrls))[::-1], [pname(c) for c in ctrls])
         _save(fig, out, f"supp_forest_{family}_{d}{ltag}{tag}",
               s[s.metric.isin(metrics)][["control", "metric", "rel_pct", "rel_ci_lo",
                                          "rel_ci_hi", "p_holm", "wins", "n_pairs"]])
@@ -338,7 +359,7 @@ def headline(pt_all: pd.DataFrame, path: Path, sel: dict | None, n_main: int = 1
         for (d, f), g in sc.groupby(["dist", "switch_cost_frac"]):
             lines += table(g, f"{d} / switch cost {f:g} x TQ_base", ["RR", "RR-matched", "RandomBoost",
                                                                     "MARR", "EImHLVQTRR", "FCFS", "SRTF"])
-    path.write_text("\n".join(lines), encoding="utf-8")
+    path.write_text("\n".join(lines), encoding="utf-8", newline="\n")
 
 
 def analyze(results_dir: str | Path, out_dir: str | Path | None = None, n_boot: int = 10000):
