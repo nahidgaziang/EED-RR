@@ -80,13 +80,6 @@ matches the published example of Zohora et al. (PLOS ONE 2024). EImHLVQTRR is re
 fully specify the update rule. ADRR* is an interpretation, because the source gives no formula. AADRR is not benchmarked (it needs
 priorities and agents).
 
-## Relation to the earlier code
-
-An earlier version of this study used the code at <https://github.com/Md-Pranto/Research_Resources>. That code had
-errors identified in peer review: Jain's index computed over all n processes, waiting time updated only at dispatch,
-the MARR quantum computed once, and completions counted as context switches. This repository replaces it.
-`tests/test_core.py::test_reproduces_earlier_version_partition1` reproduces the earlier numbers exactly in a
-legacy mode, so the effect of each correction can be inspected.
 
 ## Citation
 
