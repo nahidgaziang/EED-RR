@@ -1,6 +1,7 @@
 """Single-dispatch worked example of EED-RR, as given in the paper.
 
-State at t = 10 with TQ_base = 10 and sf = 1.5; three processes are present:
+State at t = 10 with TQ_base = 10 and sf = 0.25 (the value selected on validation workloads and
+used in the paper); three processes are present:
   P1: a=0, cpu=6  -> x1 = 6/(10-0) = 0.6
   P2: a=2, cpu=2  -> x2 = 2/(10-2) = 0.25   (about to be dispatched)
   P3: a=5, cpu=0  -> x3 = 0/(10-5) = 0
@@ -30,7 +31,7 @@ class _State:
         self.Q = deque()
 
 
-def worked_example(sf: float = 1.5) -> dict:
+def worked_example(sf: float = 0.25) -> dict:
     st = _State(t=10.0, a=[0, 2, 5], cpu=[6, 2, 0], tq_base=10.0)
     pol = EEDRR(sf=sf)
     pol.reset(st)

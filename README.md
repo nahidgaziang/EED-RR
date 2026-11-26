@@ -48,7 +48,7 @@ and choose *Save & Run All* (no internet needed).
 | `eedrr_bench/worked_example.py` | The single-dispatch worked example in the paper (`python -m eedrr_bench.worked_example`) |
 | `eedrr_bench/flowchart.py` | Flowchart of the EED-RR scheduling loop (Fig 1) |
 | `run.py`, `analyze.py`, `make_paper_tables.py` | Entry points (see Quick start) |
-| `tests/test_core.py` | Textbook oracles, worked examples, published MARR example, exact reproduction of the earlier version, invariants |
+| `tests/test_core.py` | Textbook oracles, worked examples, published examples of MARR, EImHLVQTRR and SARR, hand-worked STS-RR schedules, exact reproduction of the earlier version, invariants |
 | `data/` | Input data with provenance and licences (see `data/README.md`) |
 | `results/` | Archived raw per-instance results, validation selection, statistics and figures (`results/analysis/headline.md` is a readable digest) |
 | `paper/` | Generated LaTeX tables, `key_numbers.json`, and Fig1–Fig5 as submitted |
@@ -58,7 +58,8 @@ and choose *Save & Run All* (no internet needed).
 
 * **Workloads:** Poisson arrivals at load 0.5/0.7/0.9/0.95 × bursts Gaussian/exponential/lognormal/Pareto/bimodal ×
   n = 100/1000/5000, with 30 independent test seeds per cell; overloaded batch workloads; the original 10-partition
-  dataset; 60 windows of the SDSC-SP2 trace; a switch-cost scenario. 2,520 instances in total, 27 policies each.
+  dataset; 60 windows of the SDSC-SP2 trace; a switch-cost scenario. 2,520 instances in total (2,220 distinct workloads: the switch-cost scenario reuses
+  test workloads), 27 policies each.
 * **Controls:** RR with the same base quantum and 1.25×/1.5×/2× quantum; equal-budget RR and random boost (same mean
   enlargement as EED-RR); JFI-only and deficit-only ablations; original vs corrected state definitions.
 * **Parameter selection:** sf is chosen on separate validation seeds (0–9) by minimising the geometric mean of
@@ -76,9 +77,10 @@ and choose *Save & Run All* (no internet needed).
 ## Baseline implementation notes
 
 Details and verification are in the paper's S1 Appendix. In brief: MARR sorts each round by remaining burst and
-matches the published example of Zohora et al. (PLOS ONE 2024). EImHLVQTRR is reported in two variants
-(per round with the half-life completion rule; per dispatch with ceiling rounding), because its source does not
-fully specify the update rule. ADRR* is an interpretation, because the source gives no formula. AADRR is not benchmarked (it needs
+matches the published example of Zohora et al. (PLOS ONE 2024). EImHLVQTRR (per round, with the half-life
+completion rule) reproduces both worked examples of its source; a per-dispatch variant with ceiling rounding does not
+and is reported only as a sensitivity check. SARR reproduces cases 1–3 of its source; STS-RR is checked against
+schedules worked by hand from its rule. ADRR* is an interpretation, because the source gives no formula. AADRR is not benchmarked (it needs
 priorities and agents).
 
 

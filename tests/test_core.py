@@ -12,7 +12,7 @@ sys.path.insert(0, str(ROOT))
 
 from eedrr_bench import (ADRR, EEDRR, FCFS, MARR, RR, SJF, SRTF, EImHLVQTRR, Policy,  # noqa: E402
                          RandomBoostRR, SelfAdjustRR, SmartTimeSliceRR, Workload, jain, simulate)
-from eedrr_bench.engine import default_sample_times  # noqa: E402
+from eedrr_bench.engine import Engine, default_sample_times  # noqa: E402
 from eedrr_bench.workloads import legacy_partitions, synthetic  # noqa: E402
 from eedrr_bench.worked_example import worked_example  # noqa: E402
 
@@ -57,12 +57,15 @@ def test_srtf_textbook():
 
 # ------------------------------------------------------------------- EED-RR checks
 def test_eedrr_worked_example():
+    """The worked example of the paper (sf = 0.25): J = 0.570, beta_2 = 0.118, TQ = 10.13."""
     r = worked_example()
     J = 0.85 ** 2 / (3 * (0.36 + 0.0625))
     xbar = 0.85 / 3
     beta = (xbar - 0.25) / xbar
     assert close(r["J"], J) and close(r["xbar"], xbar) and close(r["beta"], beta)
-    assert close(r["TQ_elastic"], 10 * (1 + (1 - J) * beta * 1.5))
+    assert close(r["TQ_elastic"], 10 * (1 + (1 - J) * beta * 0.25))
+    assert round(r["TQ_elastic"], 2) == 10.13
+    assert close(worked_example(sf=1.5)["TQ_elastic"], 10 * (1 + (1 - J) * beta * 1.5))
 
 
 def test_eedrr_small_trace():
@@ -93,6 +96,45 @@ def test_marr_matches_published_quanta():
     assert abs(r["AWT"] - 522.05) / 522.05 < 0.005  # standard median: 523.50
     r_up = simulate(wl, MARR(median="upper"))
     assert close(r_up["AWT"], 522.05) and close(r_up["ATT"], 594.65)
+
+
+def _completions(pol, arrivals, bursts):
+    eng = Engine(Workload(arrivals, bursts), pol)
+    r = eng.run()
+    return r, [float(c) for c in eng.comp]
+
+
+def test_eimhlvqtrr_matches_published_examples():
+    """Abubakar & Isa, UMYU Scientifica 2025 (doi:10.56919/usci.2541.030), both worked examples.
+    The per-round rule reproduces them; the per-dispatch variant does not (sensitivity check only)."""
+    r = simulate(Workload([0] * 5, [2, 15, 11, 1, 17]), EImHLVQTRR())
+    assert close(r["AWT"], 13.4) and close(r["ATT"], 22.6)
+    r, comp = _completions(EImHLVQTRR(), [0, 4, 8, 12, 16], [11, 17, 16, 6, 10])
+    assert comp == [11, 28, 44, 50, 60] and close(r["AWT"], 18.6)
+    assert not close(simulate(Workload([0] * 5, [2, 15, 11, 1, 17]),
+                              EImHLVQTRR(variant="dispatch"))["AWT"], 13.4)
+
+
+def test_sarr_matches_published_examples():
+    """Matarneh, Am J Appl Sci 2009 (doi:10.3844/ajassp.2009.1831.1837), cases 1-3 (quanta and AWT).
+    Case 4 of the source is internally inconsistent and is not tested."""
+    cases = [([0, 0, 0, 0], [20, 40, 60, 80], [50, 25, 25], 62.5),
+             ([0, 0, 0, 0], [10, 14, 70, 120], [42, 53, 25], 42.5),
+             ([0, 4, 8, 16], [18, 22, 70, 74], [25, 70, 25], 35.0)]
+    for a, b, quanta, awt in cases:
+        pol = SelfAdjustRR()
+        r = simulate(Workload(a, b), pol)
+        assert pol.quanta_log == quanta, (b, pol.quanta_log)
+        assert close(r["AWT"], awt), (b, r["AWT"])
+
+
+def test_sts_rr_hand_worked_examples():
+    """Hiranwal & Roy 2011 rule (no published example with complete inputs): schedules worked by hand.
+    Odd count 9,3,6 -> slice 6 then 3; even count 4,10,7,15 -> slices 9, 3.5, 2.5."""
+    r, comp = _completions(SmartTimeSliceRR(), [0, 0, 0], [9, 3, 6])
+    assert comp == [18, 3, 9] and close(r["AWT"], 4.0)
+    r, comp = _completions(SmartTimeSliceRR(), [0, 0, 0, 0], [4, 10, 7, 15])
+    assert comp == [4, 30, 11, 36] and close(r["AWT"], 11.25)
 
 
 # ---------------------------------------------- reproduction of the earlier version

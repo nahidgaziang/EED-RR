@@ -147,7 +147,8 @@ class EImHLVQTRR(_RoundPolicy):
 
     Source: Abubakar SE, Isa I. UMYU Scientifica 2025;4(1):305-16,
     doi:10.56919/usci.2541.030. TQ = sqrt(mean(RBT) * min(RBT)) over the ready queue.
-    The update rule is not fully specified, so two variants are provided:
+    The per-round variant reproduces both worked examples of the source exactly (see
+    tests/test_core.py); the per-dispatch variant does not and is kept as a sensitivity check:
 
     variant="round":    TQ = max(1, floor(.)) once per round; a process whose remaining
                         burst is <= 2*TQ runs to completion (the half-life rule of the
